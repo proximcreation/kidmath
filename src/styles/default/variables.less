@@ -1,0 +1,42 @@
+// CONSTANTES
+@or: 1.618033988749895;
+
+// COLORS
+@danger:  desaturate(#cf2a10, 20%);
+@warning: spin(@danger, 60);
+@success: spin(@danger, 120);
+@info:    spin(@danger, 180);
+@primary: spin(@danger, 240);
+@second: spin(@danger, 300);
+
+@b : #2d2a26;
+@w : #fff;
+
+@s : 100;
+@base1 : desaturate(@info, 10%);
+@base2 : @second;
+@base3 : #d96c47;
+@base4 : #ffd42a;
+
+
+// FONTS
+@base-font: 'Quicksand', 'Helvetica';
+.base-font{
+  font-family: @base-font;
+  font-weight: 400;
+}
+.light-font{
+  font-family: @base-font;
+  font-weight: 300;
+}
+.bold-font{
+  font-family: @base-font;
+  font-weight: 900;
+}
+.fa{.far}
+@p: 10px;
+@grid: 12;
+@btn-padding: @p;
+
+@form-item-height: 2em;
+@checkbox-offset-left: 0.5em;
